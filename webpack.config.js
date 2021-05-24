@@ -42,6 +42,29 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.jpg/,
+        type: "asset/resource"
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        use: {
+            loader: 'url-loader', // NOMBRE DEL LOADER
+            options: {
+                limit: false, // O LE PASAMOS UN NUMERO
+                // Habilita o deshabilita la transformación de archivos en base64.
+                mimetype: 'aplication/font-woff',
+                // Especifica el tipo MIME con el que se alineará el archivo. 
+                name: "[name].[ext]",
+                // EL NOMBRE INICIAL DEL PROYECTO + SU EXTENSIÓN
+                outputPath: './assets/fonts/', 
+                // EL DIRECTORIO DE SALIDA (SIN COMPLICACIONES)
+                publicPath: '../assets/fonts/',
+                // EL DIRECTORIO PUBLICO (SIN COMPLICACIONES)
+                esModule: false
+            }
+        }
       }
     ]
   },
