@@ -13,7 +13,7 @@ import './js/jquery.fittext.js';
 import './js/magnific-popup.js';
 import './js/init.js';
 
-import './resumeData.json';
+// import './resumeData.json';
 
 import App from './App';
 
