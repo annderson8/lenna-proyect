@@ -17,7 +17,8 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       '@components': path.resolve(__dirname, 'src/components/'),
-      '@styles': path.resolve(__dirname, 'src/styles/')
+      '@styles': path.resolve(__dirname, 'src/styles/'),
+      '@images': path.resolve(__dirname, 'src/assets/images/')
     }
   },
   mode: 'production',
@@ -45,7 +46,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.jpg/,
+        test: /\.(png|jpe?g|gif)$/i,
         type: "asset/resource"
       },
       {

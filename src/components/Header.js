@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '@images/logo.png';
 
 class Header extends Component {
   render() {
@@ -19,12 +20,12 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Anamnesis Dx.</h1>
+            <img src={logo} />
             <h3>En su sentido más amplio, la anamnesis consiste en el rescate de datos que fueron registrados en el pasado, trayendo la información al presente.</h3>
             <hr />
             <ul className="social">
-            <li key="instagram"><a href="http://instagram.com/anamnesisdx"><i className="fa fa-instagram"></i></a></li>
-            <li key="facebook"><a href="http://facebook.com/anamnesisdx"><i className="fa fa-facebook"></i></a></li>
+            <li key="instagram"><a href="http://instagram.com/anamnesis_dx"><i className="fa fa-instagram"></i></a></li>
+            <li key="facebook"><a href="http://facebook.com/anamnesis.dx"><i className="fa fa-facebook"></i></a></li>
             </ul>
          </div>
       </div>
