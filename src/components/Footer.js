@@ -8,8 +8,8 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
-           <li key="instagram"><a href="http://instagram.com/anamnesis_dx"><i className="fa fa-instagram"></i></a></li>
-           <li key="facebook"><a href="http://facebook.com/anamnesis.dx"><i className="fa fa-facebook"></i></a></li>
+           <li key="instagram"><a href="http://instagram.com/anamnesisdx"><i className="fa fa-instagram"></i></a></li>
+           <li key="facebook"><a href="http://facebook.com/anamnesisdx"><i className="fa fa-facebook"></i></a></li>
            </ul>
 
            <ul className="copyright">
