@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-// import ReactGA from 'react-ga';
+import React, { Component, useEffect } from 'react';
+import ReactGA from 'react-ga';
 // import $ from 'jquery';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
@@ -14,11 +14,9 @@ class App extends Component {
       resumeData: {}
     };
 
-    // ReactGA.initialize('G-ZH8N9YY417');
-    // ReactGA.pageview(window.location.pathname + window.location.search);
-
-  }
-
+    ReactGA.initialize('UA-197835895-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    }
   // getResumeData(){
   //   $.ajax({
   //     url:'./resumeData.json',
