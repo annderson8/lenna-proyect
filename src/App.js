@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 // import $ from 'jquery';
 import Header from '@components/Header';
-import Footer from '@components/Footer';
-import About from '@components/About';
+// import Footer from '@components/Footer';
+// import About from '@components/About';
 
 class App extends Component {
 
@@ -14,7 +14,7 @@ class App extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize('UA-197835895-1');
+    ReactGA.initialize('UA-198017971-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
     }
   // getResumeData(){
@@ -40,8 +40,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <About/>
-        <Footer/>
+        {/* <About/> */}
+        {/* <Footer/> */}
       </div>
     );
   }

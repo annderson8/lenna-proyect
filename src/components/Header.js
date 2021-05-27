@@ -12,8 +12,8 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Inicio</a></li>
-            <li><a className="smoothscroll" href="#about">Acerca</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            {/* <li><a className="smoothscroll" href="#about">About</a></li> */}
          </ul>
 
       </nav>
@@ -21,11 +21,11 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <img src={logo} />
-            <h3>En su sentido más amplio, la anamnesis consiste en el rescate de datos que fueron registrados en el pasado, trayendo la información al presente.</h3>
+            <h3>Coming soon</h3>
             <hr />
             <ul className="social">
-            <li key="instagram"><a href="http://instagram.com/anamnesisdx"><i className="fa fa-instagram"></i></a></li>
-            <li key="facebook"><a href="http://facebook.com/anamnesisdx"><i className="fa fa-facebook"></i></a></li>
+            <li key="instagram"><a href="http://instagram.com/lennathelabel"><i className="fa fa-instagram"></i></a></li>
+            {/* <li key="facebook"><a href="http://facebook.com/anamnesisdx"><i className="fa fa-facebook"></i></a></li> */}
             </ul>
          </div>
       </div>
